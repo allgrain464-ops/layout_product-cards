@@ -1,17 +1,13 @@
-@import './variables';
-@import './card';
-@import './stars';
+@import 'variables';
+@import 'card';
+@import 'stars';
 
-* {
+html,
+body {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: $font-family;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background-color: #fff;
+  padding: 0;
 }
