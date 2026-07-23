@@ -1,13 +1,14 @@
-@import 'variables';
-@import 'card';
-@import 'stars';
+@use 'variables' as *;
+@use 'stars';
+@use 'card';
 
-html,
-body {
-  box-sizing: border-box;
+html {
+  font-family: $font-family;
+  font-size: 10px;
+  line-height: 14px;
+  color: $text-secondary-color;
 }
 
 body {
   margin: 0;
-  padding: 0;
 }
